@@ -29,12 +29,3 @@ h1 {
     height: 62%;
     margin: 19% auto;
   }
-
-.hopper {
-  width : 170px;
-  height : 200px;
-  position: absolute;
-  top: 84%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
