@@ -1,0 +1,40 @@
+h1 {
+    background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  }
+
+  figcaption.default {
+    display: none;
+  }
+  
+  figcaption.active {
+    display: block;  
+  }
+  
+  figcaption.in_design {
+    background-color: #000;
+    opacity: 0.9;
+  }
+  
+  .active.in_design {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .in_design img {
+    width: 62%;
+    height: 62%;
+    margin: 19% auto;
+  }
+
+.hopper {
+  width : 170px;
+  height : 200px;
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
